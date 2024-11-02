@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;   
+}
+
+a {
+    text-decoration: none;
+    color: #1f1d1d;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3d3b3b;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.container {
+    border-bottom: 2px solid #3d3b3b;
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    font-family: Montserrat, sans-serif;;
+    font-weight: 600;
+    line-height: 1.2;
+    width: 1300px;
+    margin: 20px auto;
+    box-shadow: -5px 6px 20px #888686;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 30px 90px;
+}
+
+
+/* about styles */
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about-position {
+    color: #3d3b3b;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    color: #3d3b3b;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+/* work styles */
+
+.work-company {
+    margin-bottom: 20px;
+}
+
+.work {
+    margin-bottom: 45px;
+}
+
+.work-position {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.period {
+    color: #3d3b3b;
+    margin-bottom: 10px;
+}
+
+.line {
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.work-list {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.work-company__job {
+    color: #000000;
+}
+
+.work-list-item {
+    color: #1f1d1d;
+    margin-bottom: 10px;
+}
+
+.checkbox img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* Education styles */
+
+.education {
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.education-position__red {
+    color: #ff0000;
+}
+
+.university {
+    color: #FB6D3A;
+    margin-bottom: 10px;
+    
+}
+
+.education-position {
+    color: #000000;
+    /* margin-bottom: 10px; */
+    padding-bottom: 20px;
+}
+
+.education-list li {
+    margin-top: 5px;
+}
+
+.education-period {
+    color: #1f1d1d;
+}
+
+/* sidebar styles */
+
+.sidebar {
+    background-color: #b5e4ee;
+    width: 650px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 150px;
+}
+
+.photo {
+    margin-bottom: 40px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 15px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.sidebar-title {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #347985;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.contact-type {
+    display: inline-block;
+    color: #000;
+}
+
+.contact-link {
+    color: #3d3b3b;
+}
+
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #000;
+    padding: 0;
+}
+
+.tech-skills-item {
+    color: #FB6D3A;
+}
+
+.soft-skills-item {
+    color: #000000;
+}
+
+.contact-type__location,
+.tech-skills-text img,
+.soft-skills-text img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-type-vb {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#slider {
+    width: 384px;
+    height: 128px;
+    border: 5px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa {
+    width: 896px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+#polosa img {
+    float: left;
+}
+
+
+#polosa::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
