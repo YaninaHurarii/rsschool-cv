@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gifts</title>
+        <title>Home</title>
         <link rel="icon" type="image/x-icon" href="images/snowflake.svg">
         <link rel="stylesheet" href="./variables.css">
         <link rel="stylesheet" href="./style.css">
@@ -24,9 +24,9 @@
                         <img src="./images/logo.png" alt="logo">
                         <h2>the gifts</h2>
                     </a>
-                    <nav class="navbar__gifts">
+                    <nav class="navbar">
                         <ul>
-                            <li><span class="item__gifts">gifts</span></li>
+                            <li><a class="navbar__item" href="gifts.html" target="_blank">gifts</a></li>
                             <li><a class="navbar__item" href="index.html#about">about</a></li>
                             <li><a class="navbar__item" href="index.html#best">best</a></li>
                             <li><a class="navbar__item" href="#footer">contacts</a></li>
@@ -50,115 +50,132 @@
                     </div>
                 </div>
             </section>
+            <section class="hero">
+                <div class="hero__image"></div>
+                <div class="hero__content">
+                    <p class="suptitle hero-suptitle">Merry Christmas</p>
+                    <h1 class="hero-title">Gift yourself the magic of new possibilities</h1>
+                    <a href="#best" class="header_button button">Explore Magical Gifts</a>
+                    <p class="subtitle">and Happy New Year</p>
+                </div>
+                
+            </section>
         </header>
         <main>
-            
+            <!-- About  -->
+            <section class="about" id="about">
+                <div class="container about__container">
+                    <div class="about__content">
+                        <p class="suptitle suptitle__about">About</p>
+                        <h2 class="title title__about">Unleash your inner superhero!</h2>
+                        <p class="subtitle__about">This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>
+
+                    </div>
+                    <div class="about__image"></div>
+                </div>
+            </section>
+
+           <!-- Slider  -->
+            <section class="slider">
+                <div class="container slider__container">
+                    <div class="slider__content">
+                        <p class="suptitle suptitle__slider">Become Happier!</p>
+                        <h2 class="title title__slider">in the new 2025</h2>
+                    </div>
+
+                    <div class="slider__carousel">
+                        <div>live</div>
+                        <div class="carousel__image-1"><img src="./images/snowman.png" alt="snowman"></div>
+                        <div>create</div>
+                        <div class="carousel__image-2"><img src="./images/christmas-trees.png" alt="christmas-trees"></div>
+                        <div>Love</div>
+                        <div class="carousel__image-3"><img src="./images/christmas-tree-ball.png" alt="christmas-trees"></div>
+                    </div>
+                    <div class="slider__buttons">
+                        <button class="slider__button-1 slider__button">
+                            <svg class="arrow-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="arrow-path" d="M13.5 7H1M1 7L7 1M1 7L7 13" stroke="white" stroke-opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="slider__button-2 slider__button">
+                            <svg class="arrow-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="arrow-path" d="M1 7H13.5M13.5 7L7.5 1M13.5 7L7.5 13" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                </div>
+            </section>
              <!-- Best Gifts  -->
-
-            <section class="gifts">
-                <div class="container gifts__container">
-                    <div class="best-gifts__content gifts__content">
-                        <h1 class="title title__gifts">Achieve health, harmony, and inner strength</h1>
+            <section class="best-gifts" id="best">
+                <div class="container best-gifts__container">
+                    <div class="best-gifts__content">
+                        <p class="suptitle suptitle__best-gifts">Best Gifts</p>
+                        <h2 class="title title__best-gifts">especially for you</h2>
                     </div>
-                    <div>
-                        <nav class="gifts__navigation">
-                            <ul>
-                                <li><a class="gifts__item gifts__item-first" href="#">All</a></li>
-                                <li><a class="gifts__item" href="#">for work</a></li>
-                                <li><a class="gifts__item" href="#">for health</a></li>
-                                <li><a class="gifts__item" href="#">for harmony</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="gifts__cards">
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-1"></div>
+                    <div class="best-gifts__cards">
+                        <a href="#" class="best-gifts__card">
+                            <div class="best-gifts__image-1"></div>
                             <div class="card__footer">
                                 <h4 class="card__footer-text">For work</h4>
                                 <h3 class="card__footer-title">Console.log Guru</h3>
                             </div>
                         </a>
-                        <a href="#" class="best-gifts__card gifts__card">
-                            <div class="gifts__image-2"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-2">For health</h4>
-                                <h3 class="card__footer-title">Step Master</h3>
-                            </div>
-                        </a>
-                       
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-3"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text">For work</h4>
-                                <h3 class="card__footer-title">Bug Magnet</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-3"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text">For work</h4>
-                                <h3 class="card__footer-title">Shortcut Cheater</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="best-gifts__card gifts__card">
-                            <div class="gifts__image-2"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-2">For health</h4>
-                                <h3 class="card__footer-title">Posture Levitation</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-4"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-4">For harmony</h4>
-                                <h3 class="card__footer-title">Bug Acceptance Guru</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="best-gifts__card gifts__card">
-                            <div class="gifts__image-2"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-2">For health</h4>
-                                <h3 class="card__footer-title">Snack Resister</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-4"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-4">For harmony</h4>
-                                <h3 class="card__footer-title">Error Laugher</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="best-gifts__card gifts__card">
-                            <div class="gifts__image-2"></div>
+                        <a href="#" class="best-gifts__card">
+                            <div class="best-gifts__image-2"></div>
                             <div class="card__footer">
                                 <h4 class="card__footer-text card__footer-text-2">For health</h4>
                                 <h3 class="card__footer-title">Hydration Bot</h3>
                             </div>
                         </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-3"></div>
+                        <a href="#" class="best-gifts__card">
+                            <div class="best-gifts__image-3"></div>
                             <div class="card__footer">
                                 <h4 class="card__footer-text">For work</h4>
                                 <h3 class="card__footer-title">Merge Master</h3>
                             </div>
                         </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-4"></div>
-                            <div class="card__footer">
-                                <h4 class="card__footer-text card__footer-text-4">For harmony</h4>
-                                <h3 class="card__footer-title">Joy Charger</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="gifts__card">
-                            <div class="gifts__image-4"></div>
+                        <a href="#" class="best-gifts__card">
+                            <div class="best-gifts__image-4"></div>
                             <div class="card__footer">
                                 <h4 class="card__footer-text card__footer-text-4">For harmony</h4>
                                 <h3 class="card__footer-title card__two-rows">Spontaneous Coding Philosopher</h3>
                             </div>
                         </a>
                     </div>
+
                 </div>
+            </section>
+            <!-- CTA section -->
+            <section class="cta">
+                <div class="cta__bg-forest"></div>
+                <div class="cta__bg-snow"></div>
+                <div class="container cta__container">
+                    <div class="cta__content">
+                        <h2 class="cta__title title">Ready to start your journey to a better version of yourself?</h2>
+                        <a href="#best" class="cta_button">Explore Magical Gifts</a>
+                        <p class="subtitle cta__subtitle">The New Year is Coming Soon.</p>
+                        <div class="cta__timer">
+                            <div class="cta__timer-day cta__timer-cell">
+                                <h3>47</h3>
+                                <h4>days</h4>
+                            </div>
+                            <div class="cta__timer-hours cta__timer-cell">
+                                <h3>5</h3>
+                                <h4>hours</h4>
+                            </div>
+                            <div class="cta__timer-minutes cta__timer-cell">
+                                <h3>34</h3>
+                                <h4>minutes</h4>
+                            </div>
+                            <div class="cta__timer-seconds cta__timer-cell">
+                                <h3>12</h3>
+                                <h4>seconds</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
             </section>
         </main>
         <footer class="footer" id="footer">
